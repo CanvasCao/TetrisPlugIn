@@ -11,7 +11,6 @@
         var container=document.getElementById(str);
         container.innerHTML='<canvas width="250" height="500" id="canvas"></canvas><canvas width="200" height="500" id="can_score"></canvas>';
 
-
         var canvas = document.getElementById('canvas');
         canvas.style.border='1px solid black';
         var ctx = canvas.getContext('2d');
